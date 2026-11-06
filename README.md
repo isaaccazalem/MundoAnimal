@@ -8,17 +8,7 @@ tipo `Animal` y los recorre con un ciclo for-each, sin usar `if/else`.
 Cada animal responde con su propio sonido y movimiento.
 
 ## 📁 Estructura del proyecto
-src/
-└── mx/
-└── com/
-└── animales/
-├── Animal.java       # Clase abstracta padre
-├── Movible.java      # Interfaz con metodo moverse()
-├── Perro.java        # Hijo de Animal + Movible
-├── Gato.java         # Hijo de Animal + Movible
-├── Vaca.java         # Hijo de Animal + Movible
-├── Caballo.java      # Hijo de Animal + Movible (Reto extra)
-└── Main.java         # Clase principal con el arreglo y ciclo
+
 
 **Clases:**
 - **Animal:** Clase abstracta con atributos `nombre` y `edad`, metodos `mostrarInformacion()` y `hacerSonido()` abstracto.
