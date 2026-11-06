@@ -4,10 +4,11 @@ public class Main {
     static void main(String[] args) {
 
         //Arreglo con mis 3 animalitos
-        Animal [] mascotas = new Animal[3];
+        Animal [] mascotas = new Animal[4];
         mascotas [0] = new Perro ("Bobira", 8);
         mascotas [1] = new Gato ("Neko", 5);
         mascotas [2] = new Vaca ("Lola", 9);
+        mascotas [3] = new Caballo ("Spirit", 10);
 
         //recorremos el arreglo con un for-each
         for (Animal a : mascotas) {
